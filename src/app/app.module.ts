@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { PagesListComponent } from './pages-list/pages-list.component';
 
 import { environment } from './../environments/environment.prod';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PagesListComponent
+    PagesListComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
